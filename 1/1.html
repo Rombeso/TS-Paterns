@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let haystack = "mississippi"
+    let needle = "issip"
+    var strStr = function(haystack, needle) {
+
+        return haystack.indexOf(needle)
+
+            // for (let i = startIndex; i <= haystack.length; i++) {
+            //     debugger
+            //     // console.log(i, haystack.length - 1)
+            //     for (let g = 0; g <= needle.length; g++) {
+            //         console.log(haystack[g + i], needle[g], g, i)
+            //         if (g === needle.length - 1 && haystack[g + i] === needle[g]) {
+            //             return i
+            //         } else if (haystack.length - 1 === g + i) {
+            //             return -1
+            //         } else if (haystack[g + i] !== needle[g]) {
+            //             i = i + g
+            //             break
+            //         }
+            //
+            //     }
+            // }
+        // }
+    }
+    console.log(strStr(haystack, needle))
+</script>
+</html>

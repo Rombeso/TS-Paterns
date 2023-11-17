@@ -1,0 +1,15 @@
+# Project exclude paths
+/1/test1.js
+/1/test2.js
+/1/test3.js
+/classes/1.js
+/classes/test2.js
+/classes/test3.js
+/Decorators/test1.js
+/Decorators/test2.js
+/Generic/test1.js
+/Generic/test9.js
+/Manipulation/test8.js
+/Manipulation/test9.js
+/Paterns/Generative paterns/Factory.js
+/test4.js
